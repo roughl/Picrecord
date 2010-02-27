@@ -1,0 +1,10 @@
+Description:
+A script, which is used to capture specific areas of the screen to a directory.
+
+Installation:
+- install "import"
+- change the paths in picrecord.sh
+- maybe the subdirectory "/pics" is required
+- check if the picrecord.sh is executable
+- set a shortcut on picrecord.sh in ur operating system
+
