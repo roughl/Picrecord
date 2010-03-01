@@ -1,5 +1,6 @@
 #/bin/sh
-cd ~/skripte/picrecord/pics/
+output=~/picrecord/pics
+cd $output
 counter=1
 donenow=0
 while [ $donenow -eq 0 ]; do
@@ -12,4 +13,4 @@ else
 fi
 done
 echo mark the picture now!
-import ~/picrecord/pics/$file
+import $output/$file
